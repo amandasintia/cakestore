@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="eCommerce HTML Template Free Download" name="keywords">
+        <meta content="eCommerce HTML Template Free Download" name="description">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="styleForm.css" />
+    </head>
+
+    <body>
+        <div class="header">
+            <header>
+                <h1>We Are Hiring</h1>
+                <p>Karyawan Toko / Admin Online / Kasir</p>
+            </header>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="form.html">WE ARE HIRING</a>
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+
+        <div class="regis">
+            <br><center><h1>REGISTRATION FORM</h1></center><br>
+            <center><table border="0" width="400">
+            <tr><td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" size="30" name="nama" id="reg_nama"></td>
+            </tr>
+            <tr><td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" value="Laki-laki">Laki-Laki
+                        <input type="radio" value="Perempuan">Perempuan</td>
+            </tr>
+            <tr><td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" size="30" name="tml" id="reg_tml"></td>
+            </tr>
+            <tr><td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="text" size="2">/
+                        <input type="text" size="2">/
+                        <input type="text" size="2" id="reg_tgl"> (hh/bb/tttt)</td>
+            </tr>
+            <tr><td>Agama</td>
+                <td>:</td>
+                    <td><select id="reg_agm">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Hindu</option>
+                    </select></td>
+            </tr>
+            <tr><td>Status</td>
+                <td>:</td>
+                <td><input type="radio" value="Menikah">Menikah
+                        <input type="radio" value="Belum Menikah">Belum Menikah</td>
+            </tr>
+            <tr><td>Alamat</td>
+                <td>:</td>
+                <td><textarea rows="5" cols="33" placeholder="Tulis alamat lengkap anda.." id="reg_almt"></textarea></td>
+            </tr>
+            <tr><td>Posisi yang diinginkan</td>
+                <td>:</td>
+                <td><input type="checkbox" value="">Karyawan
+                        <input type="checkbox" value="">Admin Online
+                        <input type="checkbox" value="">Kasir<br></td>
+            </tr>
+            <tr><td>Email</td>
+                <td>:</td>
+                <td><input type="email" size="30" id="reg_email"></td>
+            </tr>
+            <tr><td>No Hp</td>
+                <td>:</td>
+                <td><input type="number" size="35" id="reg_nhp"></td>
+            </tr>
+            </center>
+            </table><br>
+            <button type="submit" id="daftar" class="btn-daftra"> KIRIM </button>
+            </td></tr></table><br><br>
+        </div>   
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h2>Get in Touch</h2>
+                                <div class="contact-info">
+                                    <p><i class="fa fa-map-marker"></i>123 Choco's Store, Samarinda, Indonesia</p>
+                                    <p><i class="fa fa-envelope"></i>chocoscake@example.com</p>
+                                    <p><i class="fa fa-phone"></i>+628-1233-1189</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h2>Follow Us</h2>
+                                <div class="contact-info">
+                                    <div class="social">
+                                        
+                                        <p><a href=""><i class="fab fa-twitter">@chocoscake</i></a></p> 
+                                        <p><a href=""><i class="fab fa-instagram">@chocoscake</i></a></p>
+                                        <p><a href=""><i class="fab fa-youtube">@chocoscake</i></a></p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h2>Company Info</h2>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->     
+            
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/slick/slick.min.js"></script>
+            
+    </body>
+    <script src="form.js"></script>
+</html>

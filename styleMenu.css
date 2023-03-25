@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+} 
+
+.header{
+    font-family: san-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(103, 57, 76);
+    padding: 10px 0 10px 30px;
+
+}
+nav{
+    background-color: rgb(193, 193, 193);
+    text-align: right;
+    padding: 5px 0 5px 30px;
+
+}
+
+nav a{
+    color:rgb(20, 17, 30);
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial Narrow Bold;
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.footer{
+    background-color: rgb(201, 201, 201);
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(89, 30, 99);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.product-title{
+    text-decoration: none;
+    font-family: Times New Roman;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
